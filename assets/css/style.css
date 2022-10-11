@@ -1,0 +1,109 @@
+/* body */
+body {
+    font-family: "Oswald", sans-serif;
+    color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 1040px !important;
+}
+
+/* Tier List Title */
+.headerContainer {
+    display: flex;
+}
+#title {
+    max-width: 800px;
+    padding: 50px 40px 20px 40px;
+    
+}
+
+/* Tier List Sort Board */
+#board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    width: 930px;
+    height: auto;
+    background-color: #E7F7FD;
+    border-radius: 20px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.row {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #1A1A17 0% 0% no-repeat padding-box;  
+    /*margin: 0.3px 0;*/
+}
+.line { background-color: black; height: 1px; width: 100%;}
+.label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100px;
+    min-height: 92px;
+    min-width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+.games {
+    display: flex;
+    max-width: 800px;
+    flex-wrap: wrap;
+    width: auto;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91px;
+    width: 200px;
+}
+
+/* Games Card Bank */
+.container {
+    max-width: 1230px !important;
+    margin: auto;
+}
+#cardBank {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+h2 {
+    padding: 10px;
+    margin-top: 0.5rem;
+}
+
+/* Reset Button */
+#reset {
+    margin: 50px 50px 100px 50px;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #f26308;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: #f26308;
+    border-radius: 0px;
+    padding: 5px 10px;
+}
+
+#reset:hover {
+    background: white;
+    color: #f26308;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+
+

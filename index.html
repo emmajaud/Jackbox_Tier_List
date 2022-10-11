@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+        <title>Emma Jaud - Frontend Engineer Jackbox Assessment - Tier List</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+        
+        <!-- Font Files -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap CSS Files -->
+        <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- CSS Files -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    </head>
+
+    <body>
+        <!-- Tier List Title -->
+        <span class="headerContainer">
+            <img id="title" src="assets/img/Tier-list-title.png" alt="">
+        </span>
+
+        <!-- Tier List Sort Board -->
+        <div id="board">
+            <div class="row tierRow" style="border-radius: 0 10px 0 0;">
+                <div class="label">LOVE IT</div>
+                <div id="1Row" class="games"></div>             
+            </div>
+            <div class="line"></div>
+            <div class="row tierRow">
+                <div class="label">LIKE IT</div>
+                <div id="2Row" class="games"></div>
+            </div>
+            <div class="line"></div>
+            <div class="row tierRow">
+                <div class="label">LEAVE IT</div>
+                <div id="3Row" class="games"></div>
+            </div>
+            <div class="line"></div>
+            <div class="row tierRow">
+                <div class="label">HAVEN'T PLAYED</div>
+                <div id="4Row" class="games"></div>
+            </div>
+        </div>
+        
+        <!-- Games Card Bank -->
+        <h2 id="cardBankTitle">Games in Party Packs</h2>
+        <div class="container"><div id="cardBank"></div></div>
+
+        <!-- Reset Button -->
+        <button id="reset">Reset</button>
+
+    </body>
+
+    <script src="./assets/js/cards.js"></script>
+    <script src="./assets/js/rows.js"></script>
+    <script src="./assets/js/cardbank.js"></script>
+</html>
