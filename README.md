@@ -8,4 +8,4 @@ ROW WRAP: Images will wrap once row has four images in it. To add image place it
 
 REORDER: To change the order of images, place image at the end OR drop image on top of the image you wish to place it infront of and the rest of the images in that row will move to the right.
 
-RESET: To resest tier list press button at the end of the page.# Jackbox_Tier_List
+RESET: To resest tier list press button at the end of the page.
